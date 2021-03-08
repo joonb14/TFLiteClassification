@@ -37,6 +37,13 @@ sorted_df = df.sort_values(by=0,ascending=False)
 sorted_df
 ```
 <img src="https://user-images.githubusercontent.com/30307587/110282542-010ffb00-8022-11eb-8746-7047a7386787.png" width=300px/><br>
+
+The other models such as 
+```
+efficientnet-lite0-fp32.tflite, 
+efficientnet-lite0-int8.tflite, 
+mobilenet_v1_1.0_224.tflite
+``` 
+are from the <a href="https://github.com/tensorflow/examples/tree/master/lite/examples/image_classification/android">Android Image Classification Example</a> Take a look at the github and consider changing the TFLite model if you want.<br>
 I believe you can modify the rest of the code as you want by yourself.<br>
 Thank you!<br>
-The other models such as efficientnet-lite0-fp32.tflite, efficientnet-lite0-int8.tflite, mobilenet_v1_1.0_224.tflite are from the <a href="https://github.com/tensorflow/examples/tree/master/lite/examples/image_classification/android">Android Image Classification Example</a> Take a look at the github and consider changing the TFLite model if you want.
