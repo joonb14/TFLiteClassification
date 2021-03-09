@@ -1,4 +1,4 @@
-# TFLite Classification in Python
+# TensorFlow Lite Image Classification in Python
 
 This code snipset is heavily based on <b><a href="https://www.tensorflow.org/lite/examples/image_classification/overview">TensorFlow Lite Image Classification</a></b><br>
 The segmentation model can be downloaded from above link.<br>
